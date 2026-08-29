@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = "stylesheet" href="style.css">
+    <title>Проект</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Начало</a></li>
+            <li> <a href="contacts.html">Контакти</a></li>
+            <li> <a href="events.html">Събития</a></li>
+            <li id="searchButton"> <a href="">Търсене</a></li>
+        </ul>
+    </nav>
+    <a id="button">TOP</a>
+    <section class = "information" id="information" onclick="changeColor()">
+        <h1>Tech Academy</h1>
+        <h2> Ковачницата за бъдещи технологични лидери – учи, твори, защитавай.</h2>
+        <p>"Добре дошли в Tech Academy – мястото, където се изграждат експерти в изкуствения интелект, киберсигурността, back-end разработката и уеб програмирането. С нас ще получите практически умения, иновативно обучение и увереност да покорите света на технологиите. Превърнете страстта си в професия с нашите курсове!</p>
+        <input type="checkbox" id="colorToggle"> Позволи смяна на цвета
+    </section>
+    <section class="images">
+        <article>
+            <img src="https://i.pinimg.com/736x/00/5d/c1/005dc1e96cbd4b8e4755c500c34118bb.jpg"alt="">
+            <div>
+                <h3>Web-програмиране</h3>
+                <p>HTML, CSS и Javascript </p>
+                <h5>Уеб програмирането е изкуството да превръщаш идеи в работеща реалност.</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/68/b0/65/68b065a86ecb4df84be6dada37079d8c.jpg" alt="">
+            <div>
+                <h3>Back-end програмиране</h3>
+                <p>Python, Java, C++ и бази данни </p>
+                <h5>Back-end програмирането е двигателят, който кара всяко приложение да оживее.</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/21/d2/bf/21d2bf844555fb6df55e42ceb2576c8b.jpg" alt="">
+            <div>
+                <h3>Изкуствен интелект</h3>
+                <p>Машинно обучение и роботика </p>
+                <h5>AI е ключът към създаването на бъдеще, където технологиите мислят заедно с нас.</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/d0/68/dd/d068dda70aea150efd8a57f18b761441.jpg" alt="">
+            <div>
+                <h3>Киберсигурност</h3>
+                <p>Мрежова сигурност и криптография </p>
+                <h5>Киберсигурността е щитът, който пази дигиталния свят безопасен.</h5>
+            </div>
+        </article>
+    </section>
+    <section class="team">
+        <h1>Запишете се за курс в Tech Academy</h1>
+            <p>Готов ли си да направиш първата стъпка към успешна кариера в технологиите?</p>
+        
+        <div>
+            <input type="text" placeholder="Име"id="name">
+            <input type="email" placeholder="Имейл"id="email">
+            <input type="number" placeholder="Телефон"id="phone">
+            <button id="submitButton">ИЗПРАТИ</button>
+        </div> 
+    </section>
+    <footer>
+        <ul>
+            <h4>ВРЪЗКИ</h4>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="contacts.html">Екип</a></li>
+        </ul>
+        <ul>
+            <h4>Всички Обучения</h4>
+            <li><a href="events.html">Курсове</a></li>
+            <li><a href="events.html">Събития</a></li>
+        </ul>
+        <ul>
+            <h4>Контакти</h4>
+            <li><a href="contacts.html">+359 88 123 4567</a></li>
+            <li><a href="contacts.html">+359 87 234 5678</a></li>
+            <li><a href="contacts.html">+359 89 345 6789</a></li>
+        </ul>
+    </footer> 
+    <script src="script.js"></script>    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

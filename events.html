@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = "stylesheet" href="events.css">
+    <title>Проект</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Начало</a></li>
+            <li> <a href="contacts.html">Контакти</a></li>
+            <li> <a href="events.html">Събития</a></li>
+            <li id="searchButton"> <a href="">Търсене</a></li>
+        </ul>
+    </nav>
+    <a id="button">TOP</a>
+    <section class = "information" id="information" onclick="changeColor()">
+        <h1>Tech Academy</h1>
+        <h2> Събития </h2>
+        <p>"Творим по-добре заедно – събития, които обединяват идеи и вдъхновение!</p>
+        <input type="checkbox" id="colorToggle"> Позволи смяна на цвета
+    </section>
+    <section class="images">
+        <article>
+            <img src="https://i.pinimg.com/736x/dc/92/cd/dc92cde0012ecd550f4454efa188e2ee.jpg"alt="">
+            <div>
+                <h3>Уеб програмиране без граници</h3>
+                <p>Създаваме бъдещето с код и креативност!</p>
+                <h5>Уеб програмирането е изкуството да превръщаш идеи в работеща реалност.</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/7a/aa/22/7aaa226fa54a109926545a0982514d24.jpg" alt="">
+            <div>
+                <h3>Back-end разработка</h3>
+                <p>Кодираме бъдещето зад всеки проект!</p>
+                <h5>Back-end програмирането е двигателят, който кара всяко приложение да оживее.</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/ca/a3/c8/caa3c80ba1b00736b8d72d13205e9cb0.jpg" alt="">
+            <div>
+                <h3>AI в екип</h3>
+                <p>Създаваме умни решения за един по-разумен свят!</p>
+                <h5>AI е ключът към създаването на бъдеще, където технологиите мислят заедно с нас.</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/08/bf/6c/08bf6cd8deed80328817562c62bdaf21.jpg" alt="">
+            <div>
+                <h3>Сигурни заедно</h3>
+                <p>Защити бъдещето и изгради сигурността на утрешния ден!</p>
+                <h5>Защити бъдещето и изгради сигурността на утрешния ден!</h5>
+            </div>
+        </article>
+    </section>
+    <section class="team">
+        <h1>Запишете се за събитие в Tech Academy</h1>
+            <p>Готов ли си да направиш първата стъпка към успешна кариера в технологиите?</p>
+        
+        <div>
+            <input type="text" placeholder="Име"id="name">
+            <input type="email" placeholder="Имейл"id="email">
+            <input type="number" placeholder="Телефон"id="phone">
+            <button id="submitButton">ИЗПРАТИ</button>
+        </div> 
+    </section>
+    <footer>
+        <ul>
+            <h4>ВРЪЗКИ</h4>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="contacts.html">Екип</a></li>
+        </ul>
+        <ul>
+            <h4>Всички Обучения</h4>
+            <li><a href="events.html">Курсове</a></li>
+            <li><a href="events.html">Събития</a></li>
+        </ul>
+        <ul>
+            <h4>Контакти</h4>
+            <li><a href="contacts.html">+359 88 123 4567</a></li>
+            <li><a href="contacts.html">+359 87 234 5678</a></li>
+            <li><a href="contacts.html">+359 89 345 6789</a></li>
+        </ul>
+    </footer> 
+    <script src="script.js"></script>    
+</body>
+</html>

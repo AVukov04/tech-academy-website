@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = "stylesheet" href="contacts.css">
+    <title>Проект</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Начало</a></li>
+            <li> <a href="contacts.html">Контакти</a></li>
+            <li> <a href="events.html">Събития</a></li>
+            <li id="searchButton"> <a href="">Търсене</a></li>
+        </ul>
+    </nav>
+    <a id="button">TOP</a>
+    <section class = "information" id="information" onclick="changeColor()">
+        <h1>Tech Academy</h1>
+        <h2>Нашият екип</h2>
+        <p>Екипът, който превръща идеи в иновации и мечти в реалност!</p>
+        <input type="checkbox" id="colorToggle"> Позволи смяна на цвета
+    </section>
+    <section class="images">
+        <article>
+            <img src="https://i.pinimg.com/736x/3a/d0/ed/3ad0ed2424e34397f8bf4f3ee8a20d18.jpg"alt="">
+            <div>
+                <h3>Иван Петров</h3>
+                <p>Лектор по уеб програмиране (HTML, CSS, JavaScript) </p>
+                <h5>"Кодът не е просто инструкции за компютъра – той е инструмент за реализиране на идеи и промяна на света!"</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://as1.ftcdn.net/v2/jpg/00/88/62/86/1000_F_88628675_0KoiguKKHPlVZdwMrKSz3cY46k1Wcr4S.jpg" alt="">
+            <div>
+                <h3> Димитър Стоянов</h3>
+                <p>Лектор по Back-End програмиране (Python, Java, C++ и бази данни) </p>
+                <h5>Back-end програмирането е сърцето на всяко приложение – то вдъхва живот на идеите!"</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/42/ca/3f/42ca3f46f4cee593361ac54785cda7d8.jpg" alt="">
+            <div>
+                <h3>Александър Димитров</h3>
+                <p>Лектор по Изкуствен интелект (Машинно обучение и роботика)</p>
+                <h5>Създаваме бъдещето заедно – мисли, учи, твори с изкуствен интелект.</h5>
+            </div>
+        </article>
+        <article>
+            <img src="https://i.pinimg.com/736x/a1/28/42/a12842778ecb34da3c132a1d9cc78869.jpg" alt="">
+            <div>
+                <h3>Виктор Иванов</h3>
+                <p>Лектор по Киберсигурност</p>
+                <h5>Защитата на утрешния ден започва с твоите умения днес.</h5>
+            </div>
+        </article>
+    </section>
+    <section class="team">
+        <h1>Стани незаменима част от нашия екип</h1>
+            <p>Присъедини се към екипа на Tech Academy – вдъхновявай, обучавай и помогни на други да извървят тази пътека!</p>
+        
+        <div>
+            <input type="text" placeholder="Име"id="name">
+            <input type="email" placeholder="Имейл"id="email">
+            <input type="number" placeholder="Телефон"id="phone">
+            <button id="submitButton">ИЗПРАТИ</button>
+        </div> 
+    </section>
+    <footer>
+        <ul>
+            <h4>ВРЪЗКИ</h4>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="contacts.html">Екип</a></li>
+        </ul>
+        <ul>
+            <h4>Всички Обучения</h4>
+            <li><a href="events.html">Курсове</a></li>
+            <li><a href="events.html">Събития</a></li>
+        </ul>
+        <ul>
+            <h4>Контакти</h4>
+            <li><a href="contacts.html">+359 88 123 4567</a></li>
+            <li><a href="contacts.html">+359 87 234 5678</a></li>
+            <li><a href="contacts.html">+359 89 345 6789</a></li>
+        </ul>
+    </footer> 
+    <script src="script.js"></script>    
+</body>
+</html>
