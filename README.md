@@ -1,6 +1,6 @@
 ﻿# Tech Academy Website
 
-A responsive educational website developed as a web development project using **HTML, CSS, and JavaScript**.
+A responsive educational website developed as a web development project in my first year at UNI using **HTML, CSS, and JavaScript**.
 
 The website presents a fictional technology academy, its available courses, events, and team members. It also includes several JavaScript-based interactive features.
 
